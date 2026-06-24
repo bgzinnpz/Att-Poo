@@ -30,4 +30,7 @@ class Personagem:
         self.mana = self.mana / valor
       class Barbaro(Personagem):
         def __init__(self, nome: str, vida: init, stamina: float, furia:bool):
+          super().__init__(nome, vida)
+          self.stamine = stamina
+          self
           
